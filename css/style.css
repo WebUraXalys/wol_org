@@ -1,0 +1,50 @@
+body{
+   background: #A793C6;
+   font-family: 'Open Sans', sans-serif;
+}
+.logo_name{
+   margin-top: 75px;
+   margin-left: 135px;
+}
+.header_text{
+   margin-top: 120px;
+   margin-left: 260px;
+}
+.text{
+   height: 130px;
+   width: 620px;
+   font-family: Open Sans;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 27px;
+   text-align: center;
+   color: #ffffff;
+}
+.header_manu{
+   margin-top: 148px;
+   margin-left: 135px;
+}
+.menu{
+   display: flex; 
+   height: 50px;
+   width: 845px;
+   background: rgba(255, 255, 255, 0.18);
+   border: 3px solid #FFFFFF;
+   /* box-sizing: border-box; */
+   border-radius: 7px;
+}
+.menu_link{
+   margin-top: 14px;
+   margin-left: 40px;
+   margin-bottom: 16px; 
+   /* padding-left: 40px;
+   margin-top: 14px;
+   padding-bottom: 16px; */
+   color: #ffffff;
+   text-decoration: none;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+}
