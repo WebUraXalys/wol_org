@@ -64,7 +64,7 @@ body{
    height: 900px;
    background-color: #ffffff;
 }
-.main{
+.column{
    width: 1170px;
    margin: auto;
 }
@@ -97,4 +97,40 @@ body{
    padding-bottom: 26px;
    padding-left: 14px;
    padding-right: 14px;
+}
+.more{
+   display: block;
+   margin-top: 70px;
+   text-align: center;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+
+   color: #343336;
+}
+.we_helped{
+   height: 760px;
+   background-color: #ffffff;
+}
+.we_helped_text {
+   text-align: center;
+   padding-top: 90px;
+   margin-top: 0;
+   margin-bottom: 80px;
+}
+.block_reviews{
+   width: 1170px;
+   height: 612px;
+   background: #FFFFFF;
+   border-radius: 10px;
+}
+.review{
+   margin-top: 15px;
+   margin-left: 15px;
+   vertical-align: top;
+}
+.block_reviews{
+   display: block;
 }
