@@ -1,6 +1,9 @@
 body{
    background: #A793C6;
    font-family: 'Open Sans', sans-serif;
+   max-width: 1440px;
+   margin: 0;
+   margin: auto;
 }
 .logo_name{
    margin-top: 75px;
@@ -29,7 +32,7 @@ body{
    height: 50px;
    width: 845px;
    background: rgba(255, 255, 255, 0.18);
-   border: 3px solid #FFFFFF;
+   border: 2px solid #FFFFFF;
    /* box-sizing: border-box; */
    border-radius: 7px;
 }
@@ -47,4 +50,10 @@ body{
    font-weight: 600;
    font-size: 18px;
    line-height: 25px;
+}
+.header_img{
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: -1;
 }
