@@ -5,12 +5,15 @@ body{
    margin: 0;
    margin: auto;
 }
+.header{
+   height: 777px;
+}
 .logo_name{
    margin-top: 75px;
    margin-left: 135px;
 }
 .header_text{
-   margin-top: 120px;
+   margin-top: 118px;
    margin-left: 260px;
 }
 .text{
@@ -56,4 +59,42 @@ body{
    top: 0;
    right: 0;
    z-index: -1;
+}
+.for_our{
+   height: 900px;
+   background-color: #ffffff;
+}
+.main{
+   width: 1170px;
+   margin: auto;
+}
+.now_we_help{
+   height: 760px;
+}
+.now_we_help_text{
+   text-align: center;
+   margin-top: 87px;
+   margin-bottom: 80px;
+}
+.bg_card{
+   width: 270px;
+   height: 383px;
+   background: #FFFFFF;
+   border: 1px solid #CECECE;
+   box-sizing: border-box;
+   box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+}
+.cards{
+   display: flex;
+   justify-content: space-between;
+}
+.card{
+   width: 242px;
+   height: 331px;
+   /* border: 2px solid red; */
+   padding-top: 23px;
+   padding-bottom: 26px;
+   padding-left: 14px;
+   padding-right: 14px;
 }
