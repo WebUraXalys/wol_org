@@ -1,9 +1,7 @@
 body{
    /* background: #A793C6; */
    background: #ffffff;
-   font-family: 'Open Sans', sans-serif;
-   /* max-width: 1440px; */
-   margin: 0;
+   font-family: 'Open Sans', sans-serif;   margin: 0;
    margin: auto;
 }
 .header{
@@ -65,11 +63,88 @@ body{
    position: absolute;
    top: 0;
    right: 0;
-   z-index: -1;
+   /* z-index: -1; */
 }
 .for_our{
-   height: 900px;
+   /* height: 900px; */
    background-color: #ffffff;
+}
+.for_our>.column{
+   display: flex;
+}
+.left_block_for_our{
+   width: 800px;
+}
+.for_our_h{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 26px;
+   line-height: 35px;
+   text-align: center;
+   color: #2B2A2A;
+   margin-top: 90px;
+   margin-bottom: 60px;
+}
+.title_adaddition{
+   width: 457px;
+   margin: auto;
+   /* text-align: center; */
+}
+.title{
+   width: 457px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 27px;
+   text-align: center;
+   color: #262626;
+   margin-bottom: 40px;
+}
+.addition{
+   width: 320px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 27px;
+   color: #262626;
+   margin: auto;
+}
+.main_text{
+   width: 800px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 27px;
+   color: #262626;
+   margin-top: 70px;
+}
+.vp_img{
+   border: 1px solid #CECECE;
+   box-sizing: border-box;
+   filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.15));
+   border-radius: 10px;
+   float: right;
+   margin-bottom: 15px;
+}
+.right_block_for_our::after {
+   margin-top: 117px;
+}
+.vp_img:first-child{
+   margin-top: 117px;
+}
+.button_history{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #787878;
+   text-align: center;
+   margin-bottom: 90px;
 }
 .column{
    width: 1170px;
@@ -170,6 +245,7 @@ body{
 .footer_box{
    max-width: 1440px;
    margin: auto;
+   display: flex;
 
 }
 .contact{
@@ -180,10 +256,7 @@ body{
    line-height: 27px;
 
    color: #FFFFFF;
-      display: flex;
-   /* z-index: 5; */
 }
 .footer_img{
-   /* z-index: -1; */
-      display: flex;
+
 }
