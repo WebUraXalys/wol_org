@@ -245,8 +245,15 @@ body{
 .footer_box{
    max-width: 1440px;
    margin: auto;
-   display: flex;
-
+}
+.contacts{
+   width: 374px;
+   text-align: right;
+   margin-bottom: 163px;
+}
+.contact_link {
+   text-decoration: none;
+   display: block;
 }
 .contact{
    font-family: Open Sans;
@@ -254,9 +261,66 @@ body{
    font-weight: normal;
    font-size: 20px;
    line-height: 27px;
-
    color: #FFFFFF;
 }
+.social_network{
+   width: 315px;
+   margin-left: 87px;
+   text-align: right;
+}
+.we_in_soc_net{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 27px;
+   color: #ffffff;
+   margin-bottom: 25px;
+}
+.mr{
+   margin-bottom: 20px;
+}
+.mr3{
+   margin-bottom: 30px;
+}
+.mr8{
+   margin-bottom: 8px;
+}
+.sn_spons{
+   float: left;
+   margin-right: 137px;
+}
+.sponsors{
+   width: 270px;
+   text-align: right;
+   margin-left: 132px;
+   margin-bottom: 80px;
+}
+.sponsor{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+.name_sponsor{
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   margin-left: 5px;
+}
+.more_sponsors{
+   margin-right: 20px;
+}
 .footer_img{
-
+   position: absolute;
+   z-index: 10;
+}
+.footer_text{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   height: 834px;
 }
