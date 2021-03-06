@@ -316,6 +316,7 @@ body{
 }
 .footer_img{
    position: absolute;
+   left: 0;
    z-index: 10;
 }
 .footer_text{
