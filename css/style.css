@@ -16,7 +16,6 @@ body{
    background: #A793C6;
 }
 .header_box {
-
    max-width: 1440px;
    margin: auto;
 }
@@ -158,7 +157,7 @@ body{
    margin-bottom: 90px;
 }
 .column{
-   width: 80%;
+   width: 85%;
    max-width: 1170px;
    margin: auto;
 }
@@ -180,22 +179,25 @@ body{
    margin-bottom: 80px;
 }
 .bg_card{
-   width: 270px;
-   height: 383px;
+   width: 100%;
+   /* width: 270px;
+   height: 383px; */
    background: #FFFFFF;
    border: 1px solid #CECECE;
    box-sizing: border-box;
    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
    border-radius: 10px;
+   /* display: inline-block; */
 }
 .cards{
    display: flex;
    justify-content: space-between;
+   width: 100%;
 }
 .card{
-   width: 242px;
-   height: 331px;
-   /* border: 2px solid red; */
+   width: 90%;
+   /* width: 242px;
+   height: 331px; */
    padding-top: 23px;
    padding-bottom: 26px;
    padding-left: 14px;
@@ -243,9 +245,10 @@ body{
 .block_reviews{
    display: flex;
    width: 1175px;
-   height: 612px;
+   /* height: 612px; */
    background: #FFFFFF;
    border-radius: 10px;
+   height: auto;
 }
 .review{
    margin-top: 15px;
@@ -255,6 +258,10 @@ body{
 .right_block_reviews{
    height: 582px;
    padding-right: 15px;
+   margin-bottom: 15px;
+}
+.left_block_reviews{
+   margin-bottom: 15px;
 }
 .footer{
    height: 834px;
@@ -347,4 +354,83 @@ body{
    .header_img{
       width: 70%;
    }
+   .header_text{
+      margin-top: 55px;
+   }
+   .block_reviews{
+      width: 100%;
+   }
+   .left_block_reviews.review_ll{
+      width: 54%;
+   }
+   .right_block_reviews{
+      width: 46%;
+      height: auto;
+   }
+   .main_review{
+      width: 95%;
+   }
+   .review_ll{
+      display: flex;
+   }
+   .secondary_review1{
+      width: 40%;
+   }
+   .secondary_review2{
+      width: 53%;
+   }
+}
+@media (max-width: 1300px) {
+   .logo_name{
+      margin-left: 10%;
+      padding-top: 5%;
+   }
+   .logo_img{
+      width: 16.5%;
+   }
+   .header_img {
+      width: 75%;
+   }
+   .header_text {
+      margin-top: 8%;
+      margin-left: 15%;
+   }
+   .header_manu{
+      margin-top: 10%;
+      margin-left: 5%;
+   }
+   .sn_spons{
+      margin-right: 100px;
+   }
+   .card_itm{
+      margin-right: 5px;
+   }
+}
+@media (max-width: 1200px){
+   .header_text {
+      margin-top: 10%;
+      margin-left: 14%;
+   }
+   .header_manu {
+      margin-top: 14%;
+      margin-left: 13%;
+   }
+   
+   .sn_spons {
+      margin-right: 80px;
+   }
+   /* .bg_card{
+      margin: auto;
+   }
+   .card_itm{
+      display: inline-block;
+      justify-content: space-between;
+      width: 45%;
+      margin-bottom: 30px;
+      margin-left: 30px;
+   }
+   .cards{
+      display: inline-block;
+   } */
+
 }
