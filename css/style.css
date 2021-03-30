@@ -4,7 +4,44 @@ body{
    font-family: 'Open Sans', sans-serif;   margin: 0;
    margin: auto;
 }
-/* pul */
+@-webkit-keyframes pulse {
+   from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+   }
+
+   50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+   }
+
+   to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+   }
+}
+
+@keyframes pulse {
+   from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+   }
+
+   50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+   }
+
+   to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+   }
+}
+
+.pulse {
+   -webkit-animation-name: pulse;
+   animation-name: pulse;
+}
 
 p{
    font-family: Open Sans;
