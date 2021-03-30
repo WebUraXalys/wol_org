@@ -16,7 +16,57 @@ p{
    text-indent: 2em;
    text-align: inherit;
 }
+.button_link_a {
+   text-decoration: none;
 
+   /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   background: rgba(255, 255, 255, 0.18);
+   width: 170px;
+   height: 45px;
+   border-radius: 50%;
+   border: none;
+   position: relative;
+   margin: auto;
+   position: fixed;
+   top: 90%;
+   right: 5%;
+   z-index: 1000;
+}
+
+.button_link {
+   height: 45px;
+   width: 170px;
+   border-radius: 20px;
+   border: solid 2px #fff;
+   background: #a793c6;
+   /* background: rgba(255, 255, 255, 0.18); */
+   color: #fff;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+
+   position: relative;
+   /* transform: translateX(5px); */
+}
+
+.button_link_a:before {
+   content: '';
+   width: 200px;
+   height: 70px;
+   background: #fff;
+   opacity: 0.7;
+   /* !!!*/
+   position: absolute;
+   /* !!!*/
+   border-radius: 30px;
+   left: -14px;
+   top: -13px;
+   animation: pulse 1s ease-in-out 1s infinite;
+}
 .add{
    display: block;
 }
