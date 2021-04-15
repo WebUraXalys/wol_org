@@ -53,7 +53,7 @@ p{
    font-size: 20px;
    line-height: 27px;
    color: #262626;
-   text-indent: 2em;
+   text-indent: 0;
    text-align: inherit;
 }
 .button_link_a {
@@ -455,7 +455,7 @@ p{
    font-size: 18px;
    line-height: 25px;
    color: #FFFFFF;
-   margin-left: -20px;
+   margin-left: 13px;
 }
 .more_sponsors{
    margin-right: 20px;
