@@ -58,7 +58,6 @@ p{
 }
 .button_link_a {
    text-decoration: none;
-
    /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -80,7 +79,7 @@ p{
    width: 170px;
    border-radius: 20px;
    border: solid 2px #fff;
-   background: #a793c6;
+   background: #ABE330;
    /* background: rgba(255, 255, 255, 0.18); */
    color: #fff;
    font-family: Open Sans;
@@ -275,6 +274,7 @@ p{
    margin-bottom: 90px;
 }
 .more_history {
+   display: none;
    width: 70%;
    max-width: 900px;
    margin: auto;
@@ -283,11 +283,11 @@ p{
    font-family: Open Sans;
    font-style: normal;
    font-weight: 600;
-   font-size: 20px;
+   font-size: 22px;
    line-height: 27px;
    text-align: center;
    color: #262626;
-   margin-top: 15px;
+   margin-top: 35px;
    margin-bottom: 40px;
 }
 .more_history_p{
@@ -350,12 +350,13 @@ p{
 }
 .card{
    width: 90%;
-   /* width: 242px;
-   height: 331px; */
+   width: 242px;
+   height: 331px;
    padding-top: 23px;
    padding-bottom: 26px;
    padding-left: 14px;
    padding-right: 14px;
+
 }
 .more_card{
    display: none;
@@ -513,8 +514,22 @@ p{
 .footer_name{
    display: none;
 }
-.add {
+.paying_card{
+   height: 70px;
+   width: 100%;
    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+}
+.add {
+   display: block;
+}
+.addf {
+   display: flex;
+}
+.none{
+   display: none;
 }
 @media (max-width: 1350px) {
    .header_img{
@@ -864,7 +879,7 @@ p{
       line-height: 25px;
    }
    .m_l{
-      margin-left: -30px;
+      /* margin-left: -30px; */
       width: 100%;
       font-size: 14px;
       line-height: 22px;
@@ -877,7 +892,7 @@ p{
       font-weight: normal;
       font-size: 16px;
       line-height: 22px;
-      margin-left: -20px;
+      /* margin-left: -20px; */
    }
    .more_sponsors{
       margin-left: 55px;
