@@ -5,10 +5,6 @@ const blockCardMore = document.querySelector(".more_card");
 //    blockCardMore.classList.toggle('add')
 // })
 
-
-
-
-
 buttonMoreNow.addEventListener("click", toggleModal);
 
 function toggleModal() {
