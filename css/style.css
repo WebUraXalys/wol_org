@@ -361,11 +361,14 @@ p{
 .more_card{
    display: none;
    margin-top: 30px;
-   padding-bottom: 90px;
+   padding-bottom: 10px;
    /* display: flex; */
 }
+.less{
+   display: none;
+}
 .more{
-   display: block;
+   /* display: block; */
    margin-top: 70px;
    text-align: center;
    font-family: Open Sans;
@@ -392,6 +395,21 @@ p{
 
    padding-top: 90px;
    margin-bottom: 80px;
+}
+.more_soc{
+   margin: auto;
+   text-decoration: none;
+   color:#787878;
+   font-size: 20px;
+}
+.more_soc_a{
+   text-decoration: none;
+   color:#787878;
+   font-size: 20px;
+  margin-top: 10px;
+}
+.slogo{
+   height: 22px;
 }
 .reviews{
    background: linear-gradient(0deg, rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.21)),#C7B1E8;
@@ -521,6 +539,9 @@ p{
    align-items: center;
    justify-content: center;
    background-color: #fff;
+}
+.bl{
+   display: block;
 }
 .add {
    display: block;

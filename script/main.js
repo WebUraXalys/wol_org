@@ -1,6 +1,7 @@
 const buttonMoreHistory = document.querySelector(".button_history");
 const blockMoreHistory = document.querySelector(".more_history");
-const buttonMoreNow = document.querySelector(".more");
+const buttonMoreNow = document.querySelector(".more2");
+const buttonLess = document.querySelector(".less");
 const blockCardMore = document.querySelector(".more_card");
 
 // buttonMoreNow.addEventListener('click', function () {
@@ -13,8 +14,18 @@ function moreHistory() {
    buttonMoreHistory.classList.toggle("none");
 }
 
-buttonMoreNow.addEventListener("click", toggleModal);
+buttonMoreNow.addEventListener("click", addCard);
 
-function toggleModal() {
+function addCard() {
    blockCardMore.classList.toggle("add");
+   buttonMoreNow.classList.toggle("none");
+   buttonLess.classList.toggle("add");
+}
+
+buttonLess.addEventListener("click", lessCard);
+
+function lessCard() {
+   blockCardMore.classList.toggle("add");
+   buttonMoreNow.classList.toggle("none");
+   buttonLess.classList.toggle("add");
 }
