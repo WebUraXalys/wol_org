@@ -1024,13 +1024,13 @@ p{
       height: 710px;
    }
    .modal{
-      position: absolute;
+      position: fixed;
    }
    .modal_block{
       display: block;
       width: 90%;
       height: 757px;
-      margin-top: 60px;
+      margin-top: 50px;
    }
    .left_block_img{
       width: 100%;
@@ -1075,7 +1075,7 @@ p{
       width: 234px;
       height: 45px;
       position: static;
-      margin: 10px 5% 0 10%;
+      margin: 10px 10% 0 10%;
       padding: 0;
    }
 }
