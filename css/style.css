@@ -1129,7 +1129,7 @@ p{
    .modal_block{
       display: block;
       width: 90%;
-      height: 757px;
+      height: 850px;
       margin-top: 60px;
    }
    .left_block_img{
@@ -1179,7 +1179,7 @@ p{
       padding: 0;
    }
    .addition_modal{
-      width: 300px;
+      width: 280px;
       position: static;
 
       margin: auto;
