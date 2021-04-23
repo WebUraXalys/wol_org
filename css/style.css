@@ -358,8 +358,10 @@ p{
    padding-bottom: 26px;
    padding-left: 14px;
    padding-right: 14px;
-
 }
+/* #card1{
+   border: 5px solid #ABE330;
+} */
 .more_card{
    display: none;
    margin-top: 30px;
@@ -653,6 +655,12 @@ p{
 
    position: relative;
    top: 350px;
+   width: 350px;
+   margin: auto;
+}
+.modal_block{
+   animation-name: zoom;
+   animation-duration: 0.6s;
 }
 /* Модальне вікно для фокументів код скопійований зі сайту */
 .modal_vp {
@@ -660,7 +668,7 @@ p{
    /* Hidden by default */
    position: fixed;
    /* Stay in place */
-   z-index: 1;
+   z-index: 100000;
    /* Sit on top */
    padding-top: 100px;
    /* Location of the box */
@@ -1122,7 +1130,7 @@ p{
       display: block;
       width: 90%;
       height: 757px;
-      margin-top: 50px;
+      margin-top: 60px;
    }
    .left_block_img{
       width: 100%;
@@ -1144,9 +1152,9 @@ p{
       height: 100px;
    }
    .modal_logo_name{
-      width: 95%;
-      height: 88px;
-      margin-top: 44px;
+      width: 80%;
+      height: 80px;
+      margin-top: 5px;
    }
    .close::before{
       top: 20px;
@@ -1169,6 +1177,14 @@ p{
       position: static;
       margin: 10px 10% 0 10%;
       padding: 0;
+   }
+   .addition_modal{
+      width: 300px;
+      position: static;
+
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
    }
 }
 @media(max-width: 449px){
