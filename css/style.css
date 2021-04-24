@@ -639,6 +639,18 @@ p{
    margin-left: 28px;
    /* width: 300px; */
 }
+#description_help_1 {
+   /* position: fixed; */
+   overflow-y: scroll;
+   width: 90%;
+   height: 60%;
+}
+#description_help_b{
+   top: 30px;
+}
+#description_help_a{
+   top: 40px;
+}
 .modal_button_link{
    width: 234px;
    height: 45px;
