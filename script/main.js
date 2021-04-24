@@ -13,7 +13,6 @@ const close = document.querySelectorAll(".close");
 
 for (let i = 0; i < 4; i++) {
    cards[i].addEventListener("click", modalCard);
-
    function modalCard() {
       modalCardBlock[i].classList.toggle("add");
    }  
@@ -53,10 +52,10 @@ for (let i = 0; i < 2; i++){
 
  for (let i = 0; i < 3; i++){ //Модливо вдасця зробити закриття зразу всіх історій
    buttonHistoryLess[i].addEventListener("click", lessHistory);
-   console.log(i);
+   // console.log(i);
    function lessHistory() {
       blockMoreHistory[i].classList.remove("add");
-      console.log(i+"два");
+      // console.log(i+"два");
       buttonMoreHistory.classList.toggle("none");
    }
 }
