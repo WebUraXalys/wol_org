@@ -50,7 +50,7 @@ for (let i = 0; i < 2; i++){
 }
 
 
- for (let i = 0; i < 3; i++){ //Модливо вдасця зробити закриття зразу всіх історій
+ for (let i = 0; i < 3; i++){ //Модливо вдасця зробити закриття зразу всіх історій dfdg
    buttonHistoryLess[i].addEventListener("click", lessHistory);
    // console.log(i);
    function lessHistory() {
