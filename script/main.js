@@ -12,26 +12,18 @@ const close = document.querySelectorAll(".close");
 
 
 for (let i = 0; i < 4; i++) {
-   cards[i].addEventListener("click", modalCard);
-   function modalCard() {
+   cards[i].addEventListener("click", function () {
       modalCardBlock[i].classList.toggle("add");
-   }  
+   });  
 }
+
+
 for (let i = 0; i < 4; i++){
-   close[i].addEventListener("click", closef);
-   function closef() {
+   close[i].addEventListener("click", function () {
       modalCardBlock[i].classList.toggle("add");
-   }
-}
-
-// buttonMoreHistory.addEventListener("click", moreHistory);
-
-// function moreHistory() {
-//    blockMoreHistory[0].classList.add("add");
-//    buttonMoreHistory.classList.toggle("none");
-// }
-
-// buttonHistoryMore.addEventListener("click", moreHistory);
+   });
+   
+};
 
 buttonMoreHistory.addEventListener("click", moreHistory);
 
@@ -40,24 +32,20 @@ function moreHistory() {
       buttonMoreHistory.classList.toggle("none");
    }
 for (let i = 0; i < 2; i++){
-   buttonHistoryMore[i].addEventListener("click", moreHistory2);
-   function moreHistory2() {
+   buttonHistoryMore[i].addEventListener("click", function () {
       blockMoreHistory[i+1].classList.add("add");
       buttonHistoryMore[i].classList.toggle("none");
-      // buttonHistory[i+1].classList.add("none");
-   }
-
+   });
+   
 }
 
 
- for (let i = 0; i < 3; i++){ //Модливо вдасця зробити закриття зразу всіх історій dfdg
-   buttonHistoryLess[i].addEventListener("click", lessHistory);
-   // console.log(i);
-   function lessHistory() {
+ for (let i = 0; i < 3; i++){
+   buttonHistoryLess[i].addEventListener("click", function () {
       blockMoreHistory[i].classList.remove("add");
-      // console.log(i+"два");
       buttonMoreHistory.classList.toggle("none");
-   }
+   });
+   
 }
 
 buttonMoreNow.addEventListener("click", addCard);
